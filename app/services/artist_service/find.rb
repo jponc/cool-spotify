@@ -4,6 +4,10 @@ module ArtistService
       @id = id
     end
 
+    def artist
+      response
+    end
+
     def mark_as_favorite
       favorite =
         Favorite.find_or_initialize_by(spotify_id: @id)

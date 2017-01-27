@@ -1,25 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Built a cool spotify search
 
-Things you may want to cover:
+* GET https://cool-spotify.herokuapp.com/v1/artists?query=bieber
+* GET https://cool-spotify.herokuapp.com/v1/artists/1uNFoZAHBGtllmzznpCI3s
+* POST https://cool-spotify.herokuapp.com/v1/artists/1uNFoZAHBGtllmzznpCI3s/mark_as_favorite
+* POST https://cool-spotify.herokuapp.com/v1/artists/1uNFoZAHBGtllmzznpCI3s/remove_from_favorites
+* GET https://cool-spotify.herokuapp.com/v1/favorites
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # cool-spotify
